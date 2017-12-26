@@ -16,3 +16,4 @@ Invoke-WebRequest -Uri $url_git -OutFile gitinstall.exe
 
 #New-Item -Path 'hklm:\SOFTWARE\Wow6432Node\Microsoft\StrongName\Verification\*,a19f4630a032484b' -ItemType Key -Force 
 #New-Item -Path 'hklm:\SOFTWARE\Microsoft\StrongName\Verification\*,a19f4630a032484b' -ItemType Key -Force
+#
