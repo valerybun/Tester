@@ -1,6 +1,6 @@
-$url_vs17 = "http://tu-server-slv01.corp.waters.com/artifactory/UNIFI-Misc/CITools/VisualStudio/2017/vs_Enterprise.exe"
-$url_jdk = "http://tu-server-slv01.corp.waters.com/artifactory/UNIFI-Misc/CITools/jdk-8u151-windows-x64.exe"
-$url_bamboo = "http://codedev2.waters.com/bamboo/agentServer/agentInstaller"
+$url_vs17 = 'http://tu-server-slv01.corp.waters.com/artifactory/UNIFI-Misc/CITools/VisualStudio/2017/vs_Enterprise.exe'
+$url_jdk = 'http://tu-server-slv01.corp.waters.com/artifactory/UNIFI-Misc/CITools/jdk-8u151-windows-x64.exe'
+#$url_bamboo = 'http://codedev2.waters.com/bamboo/agentServer/agentInstaller'
 $url_git = "https://github.com/git-for-windows/git/releases/download/v2.15.1.windows.2/Git-2.15.1.2-64-bit.exe"
 $JavaHomePath = $('C:\Java\jdk1.8.0_151')
 $JavaPath = $($Env:PATH + ';' + 'C:\Java\jdk1.8.0_151\bin')
