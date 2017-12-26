@@ -6,7 +6,7 @@ $url_vs17 = 'http://tu-server-slv01.corp.waters.com/artifactory/UNIFI-Misc/CIToo
 #$JavaPath = $($Env:PATH + ';' + 'C:\Java\jdk1.8.0_151\bin')
 #$GitPath = $($Env:PATH + ';' + 'C:\Program Files\Git\bin')
 
-Invoke-WebRequest -Uri $url_vs17 -OutFile vs_2017.exe 
+Invoke-WebRequest -Uri $url_vs17 -OutFile vs_2017.exe -UseBasicParsing
 #Invoke-WebRequest -Uri $url_jdk -OutFile jdk-8u151-windows-x64.exe
 #Invoke-WebRequest -Uri $url_bamboo -OutFile atlassian-bamboo-agent-installer-6.1.1.jar
 #Invoke-WebRequest -Uri $url_git -OutFile gitinstall.exe
