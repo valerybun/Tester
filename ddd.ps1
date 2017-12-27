@@ -11,8 +11,8 @@ Invoke-WebRequest -Uri $url_jdk -OutFile jdk-8u151-windows-x64.exe
 Invoke-WebRequest -Uri $url_bamboo -OutFile atlassian-bamboo-agent-installer-6.1.1.jar
 Invoke-WebRequest -Uri $url_git -OutFile gitinstall.exe
 
-Start-Process -FilePath C:\jdk-8u151-windows-x64.exe -PassThru -ArgumentList "/s,INSTALLDIR=c:\Java\jdk1.8.0_151,/L,install64.log" -Wait
-Start-Process .\gitinstall.exe  '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /NOCANCEL /SP- /LOG' -Wait
+#Start-Process -FilePath C:\jdk-8u151-windows-x64.exe -PassThru -ArgumentList "/s,INSTALLDIR=c:\Java\jdk1.8.0_151,/L,install64.log" -Wait
+#Start-Process .\gitinstall.exe  '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /NOCANCEL /SP- /LOG' -Wait
 
 #New-Item -Path 'hklm:\SOFTWARE\Wow6432Node\Microsoft\StrongName\Verification\*,a19f4630a032484b' -ItemType Key -Force 
 #New-Item -Path 'hklm:\SOFTWARE\Microsoft\StrongName\Verification\*,a19f4630a032484b' -ItemType Key -Force
